@@ -47,7 +47,6 @@ npm run cli    # Starts the interactive interface
 ### 5. Stop the Devnet
 When you're finished testing:
 ```bash
-```bash
 npm run proof-server:stop
 ```
 
