@@ -1,0 +1,6 @@
+89f871c Track compiled managed directory to satisfy submission requirements
+68b46d5 Update README with product details and setup instructions
+e78c947 Update CLI to support Task Tracker features
+8e635fd Update client deployment and E2E scripts for Task Tracker
+4c63731 Add Zero-Knowledge Task Tracker smart contract
+0db774b Initial commit of base project

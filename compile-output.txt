@@ -1,0 +1,5 @@
+> demo@1.0.0 compile
+> wsl ~/.local/bin/compact compile contracts/task-tracker.compact contracts/managed/task-tracker
+
+Compiling 1 circuits:
+  complete_task

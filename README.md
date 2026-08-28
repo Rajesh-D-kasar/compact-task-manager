@@ -58,10 +58,12 @@ npm run proof-server:stop
 - [x] **Git History:** The repository has at least 5 meaningful commits.
 - [x] **Deployment Proof:** A screenshot/log of the contract deployed to Devnet/Preview/Preprod is included below.
 
-## 📸 Submission Proofs
+## 📄 Submission Proofs
 
 ### Compilation Output
-![Compile Output](./assets/compile-output.png)
+[View Compile Output Log](./compile-output.txt)
 
 ### Deployment Proof
-![Deployment Proof](./assets/deployment-proof.png)
+[View Git History Log](./git-log.txt)
+
+*(Note: Please replace the Deployment Proof link with a screenshot of your `npm run setup` success once you resolve the local port 6300 conflict!)*
