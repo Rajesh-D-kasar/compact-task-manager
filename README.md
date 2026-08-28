@@ -56,4 +56,12 @@ npm run proof-server:stop
 - [x] **Tests & CLI:** TypeScript interface (`cli.ts`, `deploy.ts`, `e2e-check.ts`) executes without compilation errors.
 - [x] **Documentation:** Setup instructions, product idea, and state differences are documented in this README.
 - [x] **Git History:** The repository has at least 5 meaningful commits.
-- [ ] **Deployment Proof:** A screenshot/log of the contract deployed to Devnet/Preview/Preprod is included (Must be added manually upon successful port bind).
+- [x] **Deployment Proof:** A screenshot/log of the contract deployed to Devnet/Preview/Preprod is included below.
+
+## 📸 Submission Proofs
+
+### Compilation Output
+![Compile Output](./assets/compile-output.png)
+
+### Deployment Proof
+![Deployment Proof](./assets/deployment-proof.png)
