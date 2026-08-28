@@ -181,7 +181,8 @@ async function main() {
               const ledgerState = TaskTracker.ledger(contractState.data);
               console.log(`\n  📋 Task Status: ${ledgerState.task_status}`);
               console.log(`  📋 Manager PK: ${Buffer.from(ledgerState.manager).toString('hex')}`);
-              console.log(`  📋 Commitment: ${Buffer.from(ledgerState.criteria_commitment).toString('hex')}\n`);
+              console.log(`  📋 Commitment: ${Buffer.from(ledgerState.criteria_commitment).toString('hex')}`);
+              console.log(`  📋 Global Tasks Completed: ${ledgerState.global_tasks_completed}\n`);
             } else {
               console.log('\n  📋 No task found (contract state empty)\n');
             }
