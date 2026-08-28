@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../../",
+  "sources": ["contracts/task-tracker.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAcA;;;;;;;;;;MAOA,AAAA,aASC;;;;;cAT4B,kBAA2B;;;;;;;;;;;;;;;;;;yCAA3B,kBAA2B;;;;;;;;;qDAA3B,kBAA2B;;;;OASvD;;;;GAXA;EALD;;;;;UAAY,YAAqB;UAAE,YAAqB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IALxD;;;;;;;;;yEAAiC;IACjC;;;;;;;;;yEAAsC;IACtC;;;;;;;;;yEAA6C;IAC7C;;;;;;;;;yEAA+C;IAG3C;;;;;;;2HAAmB,YAAU;;yEAAtB;IACP;;;;;;;2HAA+B,YAAU;;yEAAtB;IACnB;;;;;;;;;yEAAW;UACX,KAAsB;IAAtB;;;;;;;2HAAA,KAAsB;;yEAAA;;;;;;;GACzB;EAED,AAAA,sBASC,4BAT4B,kBAA2B;oDAC7C;;;;;;;;;;;yHAAW;;;;0CAIX,kBAAgB;kEAAI;;;;;;;;;;;uIAAmB;;IAE9C;;;;;;;;;yEAAW;UACX,KAAsB;;;;;6CAAI;;;;;;;;;;;kHAAsB;;;IAAhD;;;;;;;2HAAA,KAAsB;;yEAAA;;GACzB;;;;;;;;;;;;;;;;;;;;IArBD;qCAAA;;;;;;;;;;;0GAAiC;KAAA;IACjC;qCAAA;;;;;;;;;;;0GAAsC;KAAA;IACtC;qCAAA;;;;;;;;;;;0GAA6C;KAAA;IAC7C;qCAAA;;;;;;;;;;;0GAA+C;KAAA;;;;;;;;;;;;;;"
+}
