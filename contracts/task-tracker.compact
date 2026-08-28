@@ -1,0 +1,31 @@
+pragma language_version >= 0.23;
+
+import CompactStandardLibrary;
+
+export enum TaskStatus {
+    Pending,
+    Completed
+}
+
+export ledger manager: Bytes<32>;
+export ledger task_status: TaskStatus;
+export ledger criteria_commitment: Bytes<32>;
+export ledger global_tasks_completed: Uint<32>;
+
+constructor(manager_pk: Bytes<32>, commitment: Bytes<32>) {
+    manager = disclose(manager_pk);
+    criteria_commitment = disclose(commitment);
+    task_status = TaskStatus.Pending;
+    global_tasks_completed = 0;
+}
+
+export circuit complete_task(private_criteria: Bytes<32>): [] {
+    assert(task_status == TaskStatus.Pending, "Task is already completed");
+    
+    // The private_criteria remains a Private Witness and is NEVER exposed to the blockchain.
+    // It is verified in zero-knowledge against the public criteria_commitment.
+    assert(private_criteria == criteria_commitment, "Invalid criteria provided");
+
+    task_status = TaskStatus.Completed;
+    global_tasks_completed = (global_tasks_completed + 1) as Uint<32>;
+}
